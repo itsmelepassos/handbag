@@ -1,0 +1,22 @@
+{
+    "name": "itsmelepassos/handbag",
+    "description": "Exibe na tela as características de determinadas bolsas",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ItsMeLePassos\\HandBag\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leandro Passos",
+            "email": "itsmelepassos@gmail.com",
+            "role": "Developer Analyst"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1"
+    }
+}
