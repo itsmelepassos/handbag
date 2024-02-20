@@ -21,9 +21,9 @@ EN: The available scripts are intended to help students or those curious about p
 
 ## Como surgiu essa ideia?/How did this idea come about?
 
-PT-BR: A partir de uma série de vídeos da engenheira de software [Shirley Rios](https://github.com/shirleyr12)  que explicou de uma forma bem simples aos seguidores os conceitos de Orientação a Objeto, usando itens do cotidiano e suas características.
+PT-BR: A partir de uma série de vídeos da engenheira de software [Shirley Rios](https://github.com/shirleyr12), em uma rede social, que explicou de uma forma bem simples aos seguidores os conceitos de Orientação a Objeto, usando itens do cotidiano e suas características.
 
-EN: From a series of videos by software engineer [Shirley Rios](https://github.com/shirleyr12) who explained the concepts of Object Orientation to her followers in a very simple way, using everyday items and their characteristics.
+EN: From a series of videos by software engineer [Shirley Rios](https://github.com/shirleyr12), in a social network, who explained the concepts of Object Orientation to her followers in a very simple way, using everyday items and their characteristics.
 
 ## Instalação/Instalação
 
