@@ -9,9 +9,9 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/itsmelepassos/handbag.svg?style=flat-square)](https://scrutinizer-ci.com/g/itsmelepassos/handbag)
 [![Total Downloads](https://img.shields.io/packagist/dt/itsmelepassos/handbag.svg?style=flat-square)](https://packagist.org/packages/itsmelepassos/handbag)
 
-### PT-BR: Este script é voltado para os estudantes de tecnologia que estão no momento aprendendo noções de Programacao Orientada a Objeto
+PT-BR: Este script é voltado para os estudantes de tecnologia que estão no momento aprendendo noções de Programacao Orientada a Objeto.
 
-### EN: This script is aimed at technology students who are currently learning Object Oriented Programming
+EN: This script is aimed at technology students who are currently learning Object Oriented Programming
 
 ## Definindo este repositório/Defining this repo
 
@@ -47,10 +47,9 @@ EN: In the example folder there is a file called bag.php where there is autoload
 
 ## Segurança/Security
 
-PT_BR: Se você descobrir algum problema relacionado à segurança, envie um e-mail para itsmelepassos@gmail.com em vez de usar o rastreador de problemas.
+PT_BR: Se você descobrir algum problema relacionado à segurança, envie um e-mail para <itsmelepassos@gmail.com> em vez de usar o rastreador de problemas.
 
-EN: If you discover any security related issues, please email itsmelepassos@gmail.com instead of using the issue tracker.
-
+EN: If you discover any security related issues, please email <itsmelepassos@gmail.com> instead of using the issue tracker.
 
 Thank you
 
