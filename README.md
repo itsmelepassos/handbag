@@ -32,7 +32,7 @@ PT-BR: O script pode ser instalado via Composer:
 EN: The script is installable via Composer
 
 ```bash
-"itsmelepassos/handbag": "^1.0"
+"itsmelepassos/handbag": "^2.0"
 ```
 
 ou/or
