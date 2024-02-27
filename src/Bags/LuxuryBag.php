@@ -1,7 +1,9 @@
 <?php
 
 namespace ItsMeLePassos\HandBag\Bags;
+
 use ItsMeLePassos\HandBag\Bag;
+use Override;
 
 class LuxuryBag extends Bag
 {
@@ -18,5 +20,16 @@ class LuxuryBag extends Bag
         $part .= "<p>{$this->particularities}</p>";
 
         return $part;
+    }
+
+    /**
+     * This function overrides the parent class function
+     *
+     * @return string
+     */
+    #[Override]
+    public function wearBag(): string
+    {
+        return "É um luuuuuuuxo!";
     }
 }

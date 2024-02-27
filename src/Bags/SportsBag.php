@@ -3,6 +3,7 @@
 namespace ItsMeLePassos\HandBag\Bags;
 
 use ItsMeLePassos\HandBag\Bag;
+use Override;
 
 class SportsBag extends Bag
 {
@@ -21,5 +22,15 @@ class SportsBag extends Bag
         $relatedTo .= "<p>{$this->relatedTo}</p>";
 
         return $relatedTo;
+    }
+
+    /**
+     * This function overrides the parent class function
+     *
+     * @return string
+     */
+    public function wearBag(): string
+    {
+        return "Para todos os viciados em esporte!";
     }
 }

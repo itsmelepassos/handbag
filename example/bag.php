@@ -18,6 +18,7 @@ $luxuryBag->setParticularities('Canvas Monogram, Acabamento em couro, Forro em m
 
 echo $luxuryBag->bag();
 echo $luxuryBag->getParticularities();
+echo $luxuryBag->wearBag();
 echo "<hr/>";
 
 $sportsBag = new SportsBag();
@@ -32,4 +33,5 @@ $sportsBag->setRelatedTo(['Todos os tipos de esporte']);
 
 echo $sportsBag->bag();
 echo $sportsBag->getRelatedTo();
+echo $sportsBag->wearBag();
 echo "<hr/>";
