@@ -63,13 +63,4 @@ class Bag
         $bag .= "<p>Preço: {$this->price}</p><br /><br />";
         return $bag;
     }
-
-    /**
-     * 
-     * @return string 
-     */
-    public function wearBag(): string
-    {
-        return "Esta minha bolsa é genérica!";
-    }
 }

@@ -3,17 +3,32 @@
 namespace ItsMeLePassos\HandBag\Bags;
 
 use ItsMeLePassos\HandBag\Bag;
-use Override;
+use ItsMeLePassos\HandBag\WearBag;
 
-class LuxuryBag extends Bag
+/**
+ * 
+ * @package ItsMeLePassos\HandBag\Bags
+ */
+class LuxuryBag extends Bag implements WearBag
 {
     private string $particularities;
 
+    /**
+     * Sets the particularities of the bag
+     *
+     * @param string $particularities The particularities of the bag
+     * @return void
+     */
     public function setParticularities(string $particularities): void
     {
         $this->particularities = $particularities;
     }
 
+    /**
+     * Returns the particularities of the bag as HTML
+     *
+     * @return string
+     */
     public function getParticularities(): string
     {
         $part = "<h2>Particularidades</h2>";
@@ -23,11 +38,10 @@ class LuxuryBag extends Bag
     }
 
     /**
-     * This function overrides the parent class function
+     * Returns a message indicating that the bag is being worn
      *
      * @return string
      */
-    #[Override]
     public function wearBag(): string
     {
         return "É um luuuuuuuxo!";
